@@ -1,0 +1,3 @@
+rootProject.name = 'spider-framework'
+
+include 'config-server'

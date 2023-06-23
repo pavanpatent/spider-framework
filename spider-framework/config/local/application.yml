@@ -1,0 +1,4 @@
+hand:
+  url: http://hand-service/hello
+leg:
+  url: http://leg-service/hello
