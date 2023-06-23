@@ -3,6 +3,6 @@
 #leg:
 #  url: http://leg-service/hello
 db:
-  url: localurl
-  username: localusername
-  password: localpassword
+  url: devurl
+  username: devusername
+  password: devpassword

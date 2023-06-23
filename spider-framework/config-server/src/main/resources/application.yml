@@ -1,11 +1,10 @@
-
 spring:
   cloud:
     config:
       server:
         git:
           uri: https://github.com/pavanpatent/spider-framework
-          searchPaths: config
+          searchPaths: spider-framework/config/local
 
 server:
   port: 8888
