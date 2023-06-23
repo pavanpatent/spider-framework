@@ -4,7 +4,7 @@ spring:
       server:
         git:
           uri: https://github.com/pavanpatent/spider-framework
-          searchPaths: spider-framework/config/local
+          searchPaths: spider-framework/config
 
 server:
   port: 8888

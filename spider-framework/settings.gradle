@@ -1,3 +1,5 @@
 rootProject.name = 'spider-framework'
 
 include 'config-server'
+include 'discovery-server'
+include 'api-gateway'

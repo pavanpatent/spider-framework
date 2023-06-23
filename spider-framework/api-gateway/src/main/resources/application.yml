@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: leg-service
+          uri: lb://LEG-SERVICE
+          predicates:
+            - Path=/leg/**
+        - id: hand-service
+          uri: lb://HAND-SERVICE
+          predicates:
+            - Path=/hand/**
+  application:
+    name: SPIDER-GATEWAY
+server:
+  port: 22000
