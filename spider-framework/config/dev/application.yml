@@ -1,0 +1,8 @@
+#hand:
+#  url: http://hand-service/hello
+#leg:
+#  url: http://leg-service/hello
+db:
+  url: devurl
+  username: devusername
+  password: devpassword
